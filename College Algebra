@@ -1,0 +1,48 @@
+# Math 110 Algebra - Fall 2018
+# Exponents
+After completing this section, students should be able to:
+- Explain the product rule, quotient rule, and power rule for exponentiation by writing out powers of a variable as repeated multiplication.
+- Rewrite expressions with negative exponents so that all exponents are positive.
+- Use the product rule, quotient rule, and power rule to simplify exponential expressions.
+- Decide whether equations involving exponents are always true or not by testing examples.
+- Rewrite fractional exponents in terms of radicals.
+- Calculate numbers raised to fractional exponents without a calculator.
+
+# Exponent rules
+2^5 = 2*2*2*2*2 <-short hand of 2(power / exponent by 5)
+x^n = x * n <- self multiply by itself
+2 & X - are Base
+5 & n - are exponent sometimes called power.
+```
+let base =  2;
+let exponent = 5;
+Math.pow(base,exponent)
+or 
+base**exponent 
+```
+
+# The Product Rule
+x^n * x^m = x^n+m
+- multiply two expressiong with the same base
+- add the exponents
+
+```
+let base =  2;
+let exponent1 = 5;
+let exponent2 = 3;
+let x = Math.pow(base,exponent1)*Math.pow(base,exponent2)
+or 
+base**exponent1  * base**exponent2
+```
+
+# The Quotient Rule
+x^n / x^m =  x^n-m
+- divide two expressions with the same base
+- subtract the exponent
+```
+console.log(base**6 / base**2) // 81
+console.log(base**(6-2)) //
+81
+```
+
+#
