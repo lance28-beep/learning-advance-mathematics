@@ -45,4 +45,47 @@ console.log(base**(6-2)) //
 81
 ```
 
-#
+# the power rule
+(x^n)m = x^n*m
+- raise a power to a power
+- multiply the exponent
+```
+console.log((5**4)**3) // 244140625
+console.log(5**12) // 244140625
+
+```
+
+# the power zero
+x^0 = 1
+```
+console.log(5**0) //1
+console.log(5**3/5**3) //1
+```
+
+# Negative exponents
+x^-n = 1/x^n
+```
+console.log(5**-1) // 0.2
+console.log(1/5**1) // 0.2
+```
+
+# Fractional Exponents
+x^1/N = 3~x
+```
+console.log(64**(1/3)) /// 3.9999999999999996  or 4
+console.log(Math.cbrt(64)) /// 4
+```
+
+# Distribute an Exponent over product
+(x * y)^n = (x^n * y^n)
+```
+console.log((5*7)**3) // 42875
+console.log((5**3) * (7**3)) // 42875
+```
+
+# Distribute an Exponent over quotient
+(x/y)^n = (x^n / y^n)
+```
+console.log((5/7)**5) //0.18593443208187066
+console.log((5**5)/(7**5)) //0.18593443208187066
+```
